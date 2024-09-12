@@ -2,8 +2,9 @@
 
 ## Usage
 
+Run without an argument for usage:
+
 ```
-$ xoload
 Calculate load capacitor value.  Requires symmetric pin and trace capacitances.
 
 Usage:
@@ -34,5 +35,5 @@ We need two 15pF load capacitors.
 Clone this repo.
 On Linux/MacOS,
 ```
-install -m 755 ./xoload.py /usr/local/bin/xoload
+sudo install -m 755 ./xoload.py /usr/local/bin/xoload
 ```
