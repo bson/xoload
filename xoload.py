@@ -1,15 +1,5 @@
 #! /usr/bin/env python3
 
-# Usage:
-#   xoload CL Cpin Ct
-#
-# CL = Crystal specific load capacitance
-# Cpin = oscillator pin capacitance
-# Ct = parasitic trace capacitance (default 0)
-#
-# Calculates the value of two equal load capacitors for the oscillator.
-#
-
 import sys
 
 if len(sys.argv) < 3:
